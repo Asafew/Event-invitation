@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easter Celebration Invitation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://images.unsplash.com/photo-1580309253353-3692b7f041d4') center/cover;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            background-color: rgba(0,0,0,0.7);
+            background-blend-mode: darken;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid #gold;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-family: 'Cursive', 'Brush Script MT';
+            color: #FFD700;
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #FFD700;
+            font-weight: bold;
+        }
+
+        .details {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .features {
+            columns: 2;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        li:before {
+            content: "✝";
+            position: absolute;
+            left: 0;
+            color: #FFD700;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            background: #8B0000;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .rsvp-button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Easter Celebration 2025</h1>
+            <h3>"He is Risen!" - Matthew 28:6</h3>
+        </div>
+
+        <div class="details">
+            <h2 class="highlight">Date:</h2>
+            <p>20th April 2025 @ Midnight</p>
+        </div>
+
+        <div class="details">
+            <h2 class="highlight">Venue:</h2>
+            <p>Axium Ethiopian Restaurant<br>
+            B10 0PP Birmingham, UK</p>
+        </div>
+
+        <div class="details">
+            <h2 class="highlight">Special Features:</h2>
+            <div class="features">
+                <ul>
+                    <li>Screening of "The Passion of Christ"</li>
+                    <li>Authentic Ethiopian Cuisine & Drinks</li>
+                    <li>Charity Initiatives for Community Support</li>
+                    <li>Live Performances by Ethiopian Artists</li>
+                    <li>Motivational Speakers & Idea Exchange</li>
+                    <li>Cultural Experience Sharing</li>
+                </ul>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="mailto:events@axium.com?subject=Easter RSVP" class="rsvp-button">
+                RSVP Now - Limited Seats!
+            </a>
+            <p style="margin-top: 15px;">Attire: Smart Traditional or Cultural</p>
+            <p>Proceeds support local charities</p>
+        </div>
+    </div>
+</body>
+</html>
